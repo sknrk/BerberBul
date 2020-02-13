@@ -22,7 +22,7 @@ var port=3000;
 // .catch(err => {
 //      console.log(`DB Connection Error: ${err.message}`);
 // });
-mongoose.connect( "mongodb+srv://sknrk:emre2780323@cluster0-tkorh.mongodb.net/test?retryWrites=true&w=majorityCopy",
+mongoose.connect( "mongodb+srv://-@cluster0-tkorh.mongodb.net/test?retryWrites=true&w=majorityCopy",
 { useNewUrlParser: true, useUnifiedTopology: true },
 () => { console.log("we are connected")}).catch(err => console.log(err));
 
