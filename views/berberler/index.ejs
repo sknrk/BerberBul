@@ -1,0 +1,40 @@
+<%- include("../partials/header") %>
+
+<%- include("../partials/navbar") %>
+
+
+<div class="container">
+
+  <header class="jumbotron">
+    <div class="container">
+
+      <h1>Berberler Sayfasına Hoşgeldin </h1>
+      <p>Hoşuna giden berberleri inceleyebilir, ekleyip çıkarabilirsin.</p>
+      <p>
+        <a class="btn btn-primary btn-lg" href="/berberler/new">Yeni Berber Ekle</a>
+      </p>
+    </div>
+  </header>
+
+  <div class="row" style="display:flex; flex-wrap:wrap;">
+    <% berberler.forEach(function(berber){ %>
+    <div class="col-md-3 col-sm-6">
+      <div class="thumbnail" style="border:white 1px solid;">
+        <img src="<%=berber.image%>" >
+        <div class="caption" style="color: white;">
+          <h4><%=berber.name%></h4>
+        </div>
+        <p>
+          <a href="/berberler/<%= berber._id %>" class="btn btn-primary">Daha Fazla</a>
+        </p>
+      </div>
+    </div>
+    <%});%>
+  </div>
+
+
+
+
+</div>
+
+<%- include("../partials/footer") %>

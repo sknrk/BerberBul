@@ -1,0 +1,38 @@
+.thumbnail : img{
+  width: 100%;
+}
+.list-group-item{
+  background-color: #201b1b;
+}
+.well{
+  background-color: #201b1b;
+  border: none;
+}
+.thumbnail{
+  padding : 0;
+  background-color: #201b1b;
+}
+body{
+  background: url("https://wallpapercave.com/wp/wp1946307.jpg");
+  background-size: cover;
+  background-position:center;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
+.jumbotron{
+  background-color: #201b1b;
+}
+.hr{
+  color : #201b1b;
+}
+.btn-success{
+  background: white;
+  color:  #201b1b;
+}
+.btn-primary{
+  background: white;
+  color:  #201b1b;
+}
+.caption{
+  color: white;
+}
