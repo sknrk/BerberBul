@@ -16,8 +16,8 @@ BarberFinder connects users to barbers. To use the app, ensure you update the Mo
 1. **Clone the Repository**
 
    \```bash
-   git clone [Your Repository URL]
-   cd [Your Repository Name]
+   git clone https://github.com/sknrk/BerberBul.git
+   cd BerberBul
    \```
 
 2. **Install Dependencies**
